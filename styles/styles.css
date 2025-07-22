@@ -1,0 +1,172 @@
+/* File: styles/styles.css */
+
+.open-sans,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+}
+
+body {
+  margin: 0;
+}
+
+/* hero-banner-design */
+
+header {
+  background-color: #fff8f3;
+  background-image: url(/images/developer.png), url(/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-position-y: 60px, bottom;
+}
+
+.hero-banner-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+}
+
+.left-logo {
+  font-size: 2.85rem;
+  font-weight: 700;
+}
+
+.logo-r {
+  color: #fd6e0a;
+}
+
+.right-nav {
+  margin: 0 50px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  align-items: center;
+  margin: 0 50px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero-banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+
+.left {
+  max-width: 585px;
+  margin: auto 0;
+}
+
+.left-title {
+  font-size: 2.4rem;
+  margin: 0;
+}
+
+.banner-title {
+  font-size: 5.4rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.right img {
+  width: 580px;
+  height: 100%;
+}
+
+/* About Me Section */
+
+.about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me {
+  background-color: #fff8f3;
+  border-radius: 8px;
+  padding: 130px 155px;
+}
+
+.abt-me-container {
+  max-width: 827px;
+  max-height: 288px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.abt-me-title h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.abt-me-content p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.abt-footer {
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 50px;
+}
+
+.box h4,
+.box p {
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.box p {
+  font-weight: 700;
+}
+
+/* Universal Designs */
+
+.btn {
+  text-decoration: none;
+  background-color: #fd6e0a;
+  padding: 18px 36px;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.fa-solid {
+  margin-right: 15px;
+}
+
+.sm-font-uni {
+  font-size: 1.1rem;
+  color: #757575;
+  margin: 20px 0 30px 0;
+}
