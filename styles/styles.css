@@ -19,8 +19,9 @@ header {
   background-color: #fff8f3;
   background-image: url(/images/developer.png), url(/images/header_bg.png);
   background-repeat: no-repeat;
-  background-position: top left, bottom right;
+  /* background-position: top left, bottom right; */
   background-position-y: 60px, bottom;
+  background-position-x: 20px, right;
 }
 
 .hero-banner-top {
@@ -238,6 +239,59 @@ nav li a {
   max-width: 100%;
   margin: 0 auto;
   padding: 50px 0 113px;
+}
+
+/* Footer  */
+#footer {
+  background-color: #fff8f3;
+  padding: 130px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 117px;
+  align-items: center;
+}
+
+.left-ft {
+  margin-bottom: 25px;
+}
+
+.contact-head {
+  display: inline;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #181818;
+}
+
+.ft-para {
+  width: 562px;
+  color: #474747;
+}
+
+.left-icons {
+  display: flex;
+  gap: 24px;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.form-inputs input,
+.textarea {
+  padding: 18px 30px;
+  border: none;
+  border-radius: 5px;
+  width: 461px;
+}
+
+.textarea {
+  resize: none;
 }
 
 /* Universal Designs */
