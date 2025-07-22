@@ -90,7 +90,7 @@ nav li a {
 /* About Me Section */
 
 .about {
-  height: 100vh;
+  height: 840px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,7 +129,6 @@ nav li a {
 
 .abt-footer {
   display: flex;
-  /* justify-content: space-evenly; */
   gap: 50px;
 }
 
@@ -169,4 +168,55 @@ nav li a {
   font-size: 1.1rem;
   color: #757575;
   margin: 20px 0 30px 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 640px) {
+  header {
+    height: 130vh;
+    background-position-y: top, 30%;
+  }
+
+  .hero-banner-top {
+    flex-direction: column;
+  }
+
+  .hero-banner {
+    flex-direction: column-reverse;
+    gap: 45px;
+    margin: 0 auto;
+  }
+
+  .open-sans {
+    margin: 0;
+  }
+
+  .right img {
+    width: 100%;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .left {
+    text-align: center;
+  }
+
+  .about-me {
+    margin-top: 100%;
+    padding: 0;
+  }
+
+  .abt-me-container {
+    width: 100vw;
+    height: 100vh;
+    border: none;
+  }
+
+  .abt-footer {
+    flex-direction: column;
+  }
 }
