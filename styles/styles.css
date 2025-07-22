@@ -279,8 +279,8 @@ nav li a {
 /* Media Queries */
 @media screen and (max-width: 640px) {
   header {
-    height: 130vh;
-    background-position-y: top, 30%;
+    height: 100%;
+    background-position-y: top, 20%;
   }
 
   .hero-banner-top {
@@ -289,7 +289,6 @@ nav li a {
 
   .hero-banner {
     flex-direction: column-reverse;
-    gap: 45px;
     margin: 0 auto;
   }
 
@@ -312,7 +311,6 @@ nav li a {
   }
 
   .about-me {
-    margin-top: 100%;
     padding: 0;
   }
 
@@ -324,5 +322,38 @@ nav li a {
 
   .abt-footer {
     flex-direction: column;
+  }
+
+  .i-do {
+    flex-direction: column;
+  }
+
+  .skill-container {
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .w-para {
+    width: 100%;
+  }
+
+  .resume {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .l-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .hr {
+    width: 90%;
+  }
+
+  .r-head {
+    margin: 0;
   }
 }
