@@ -410,4 +410,15 @@ nav li a {
   .r-head {
     margin: 0;
   }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .ft-para,
+  .form-inputs input,
+  .textarea,
+  .left-ft {
+    width: 90%;
+  }
 }
